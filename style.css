@@ -235,7 +235,7 @@ h1 a, h2 a { color: #4d4d4d; font-size: 26px; }
 
 .post{
 	position: relative;
-	margin: 0 0 20px;
+	margin: 0 0 40px;
 	text-align: left;
 	background: #FFF;
 }
@@ -287,7 +287,7 @@ h1 a, h2 a { color: #4d4d4d; font-size: 26px; }
 	
 	.main {
 		margin-left: 0px;
-		padding-bottom: 80px;
+		padding-bottom: 30px;
 		background: url(images/bg_main_x.png) repeat-x center bottom;
 	}
 	.single .main {
@@ -311,8 +311,11 @@ h1 a, h2 a { color: #4d4d4d; font-size: 26px; }
 		line-height: 1.8;
 		font-size: 15px;
 	}
-	.entry ul, .entry ol, .entry p, .entry blockquote { margin: 0 0 15px; }	
+	.entry ul, .entry ol, .entry p { margin: 0 0 15px; }
+    .entry blockquote { margin: 15px 0 0 15px; padding-left: 10px; color: #888; }
 	.entry ul,.entry ol { margin-left: 25px; }
+
+    .tag { margin-top: 40px; }
 	
 	.views,.more-link { display: inline-block; font-size: 12px; color: #4C4C4C; line-height: 18px; border-bottom: 1px dotted #ccc; }
 	.more-link { margin: 10px 0 0 30px; }
