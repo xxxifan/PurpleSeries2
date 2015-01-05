@@ -235,9 +235,12 @@ h1 a, h2 a { color: #4d4d4d; font-size: 26px; }
 
 .post{
 	position: relative;
-	margin: 0 0 40px;
 	text-align: left;
 	background: #FFF;
+}
+
+.post-list{
+    margin: 0 0 60px;
 }
 
 .side{

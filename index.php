@@ -27,8 +27,10 @@
 ?>
 <!--content -->
 <div id="content" class="w640 box">
+	<?php $cur_total = $this->getLastIndex(); ?>
 	<?php while($this->next()): ?>
-	<div id="post-1" class="post-1 post type-post status-publish format-standard hentry category-uncategorized">
+	<?php $count++;?>
+	<div id="post-1" class="post-1 post type-post status-publish format-standard hentry category-uncategorized<?php if ($count < $cur_total)print(' post-list');?>">
 		<div class="side">
 			<div class="day"><a href="<?php $this->permalink() ?>"><?php $this->date('d'); ?></a></div>
 			<div class="month"><a href="<?php $this->permalink() ?>"><?php $this->date('m'); ?></a></div>
@@ -46,7 +48,7 @@
 			<div class="tag"><?php $this->tags('', true, ''); ?></div>
 		</div>
 	</div>
-		<?php endwhile; ?>
+	<?php endwhile; ?>
 	<!-- #End Post# --> 
 </div>
 	<div id="pagenavi" class="pages">
