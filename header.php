@@ -7,7 +7,7 @@
 <!-- 使用url函数转换相关路径 -->
 <link rel="stylesheet" type="text/css" media="all" href="<?php $this->options->themeUrl('style.css'); ?>" />
     <!–[if IE]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="<?php $this->options->themeUrl('js/html5.js'); ?>"></script>
     <![endif]–>
 <!-- 通过自有函数输出HTML头部信息 -->
 <?php $this->header(); ?>
