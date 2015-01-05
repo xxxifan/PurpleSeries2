@@ -34,7 +34,7 @@
 			<div class="day"><a href="<?php $this->permalink() ?>"><?php $this->date('d'); ?></a></div>
 			<div class="month"><a href="<?php $this->permalink() ?>"><?php $this->date('m'); ?></a></div>
 		</div>
-		<div class="main">
+		<div class="main-index">
 			<div class="title">
 				<h2><a href="<?php $this->permalink() ?>" rel="bookmark"><?php  $this->sticky(); $this->title() ?></a></h2>
 				<div class="meta">

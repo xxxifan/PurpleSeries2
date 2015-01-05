@@ -235,7 +235,7 @@ h1 a, h2 a { color: #4d4d4d; font-size: 26px; }
 
 .post{
 	position: relative;
-	margin: 0 0 35px;
+	margin: 0 0 20px;
 	text-align: left;
 	background: #FFF;
 }
@@ -280,10 +280,14 @@ h1 a, h2 a { color: #4d4d4d; font-size: 26px; }
 		border-color: #4d4d4d;
 		color: #4d4d4d;
 	}
+
+    .main-index{
+        margin-left: 0px;
+    }
 	
 	.main {
 		margin-left: 0px;
-		padding-bottom: 38px;
+		padding-bottom: 80px;
 		background: url(images/bg_main_x.png) repeat-x center bottom;
 	}
 	.single .main {
@@ -303,9 +307,9 @@ h1 a, h2 a { color: #4d4d4d; font-size: 26px; }
 			margin-top: 5px;
 		}
 	.entry {
-		margin-top: 15px;
+		margin-top: 30px;
 		line-height: 1.8;
-		font-size: 14px;
+		font-size: 15px;
 	}
 	.entry ul, .entry ol, .entry p, .entry blockquote { margin: 0 0 15px; }	
 	.entry ul,.entry ol { margin-left: 25px; }
@@ -391,9 +395,9 @@ h1 a, h2 a { color: #4d4d4d; font-size: 26px; }
 ------------------------------------------------*/
 #comments { clear: both; }
 #comments-title,
-#reply-title{ font-size: 20px; color: #333333; padding: 5px 0; }
-.commentlist { padding: 15px 0 0; }
-.commentlist li { list-style: none; }
+#reply-title{ font-size: 16px; color: #333333; padding: 5px 0; }
+.comment-list { padding: 20px 15px 5px 15px; }
+.comment-list li { list-style: none; }
 
 .comment-body { padding: 0 5px 10px 0; margin: 0 0 15px; min-height: 40px; border-bottom: 1px dotted #CCC; }
 .comment-author,.comment-avatar,.comment-info,.comment-text { float: left; }
