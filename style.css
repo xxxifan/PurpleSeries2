@@ -181,7 +181,7 @@ h1 a, h2 a { color: #4d4d4d; font-size: 26px; }
 	margin-top:120px;
 }
 .menu-header .menu {
-	width: 860px;
+	width: 830px;
 	margin: 0 auto;
 	background: #828D95;
 	position: absolute;
@@ -189,7 +189,7 @@ h1 a, h2 a { color: #4d4d4d; font-size: 26px; }
 	bottom: 0px;
 	
 }
-.menu-header .menu,.menu ul{ width:860px; margin: 0 auto; height: 40px; padding-left: 15px;  }
+.menu-header .menu,.menu ul{ width:830px; margin: 0 auto; height: 40px; padding-left: 30px  }
 
 .menu li { float: left; list-style: none; height: 40px;  }
 .menu li a {
