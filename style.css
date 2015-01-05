@@ -66,7 +66,7 @@ a, a:hover, .day {
 
 h1 a, h2 a { color: #4d4d4d; font-size: 26px; }
 .w640 {
-    width: 640px;
+    width: 800px;
 }
 .box {
     background: none repeat scroll 0 0 #FFFFFF;
@@ -100,8 +100,7 @@ h1 a, h2 a { color: #4d4d4d; font-size: 26px; }
     		color: #999;
     		font-size: 12px;
     		line-height: 1.5;
-    		margin-left: 0px;
-    		padding-top: 4px;
+    		margin-left: 5px;
 		}
 		.logo {
 	 		float: left;
@@ -182,7 +181,7 @@ h1 a, h2 a { color: #4d4d4d; font-size: 26px; }
 	margin-top:120px;
 }
 .menu-header .menu {
-	width: 700px;
+	width: 860px;
 	margin: 0 auto;
 	background: #828D95;
 	position: absolute;
@@ -190,7 +189,7 @@ h1 a, h2 a { color: #4d4d4d; font-size: 26px; }
 	bottom: 0px;
 	
 }
-.menu-header .menu,.menu ul{ width:700px; margin: 0 auto; height: 40px;  }
+.menu-header .menu,.menu ul{ width:860px; margin: 0 auto; height: 40px; padding-left: 15px;  }
 
 .menu li { float: left; list-style: none; height: 40px;  }
 .menu li a {
@@ -225,6 +224,8 @@ h1 a, h2 a { color: #4d4d4d; font-size: 26px; }
 .menu .sub-menu li:hover a,.menu .sub-menu li.hover a { color: #fff;text-shadow: 0 1px 1px #555; }
 .menu .sub-menu .sub-menu { top: 0; }
 .menu .sub-menu .sub-menu .sub-menu { top: 30; left: 0; }
+
+.
 
 /*Container
 ----------------------------------------------------*/
