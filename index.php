@@ -29,7 +29,6 @@
 <div id="content" class="w640 box">
 	<?php while($this->next()): ?>
 	<div id="post-1" class="post-1 post type-post status-publish format-standard hentry category-uncategorized">
-		<div class="post-ico ico_text"></div>
 		<div class="side">
 			<div class="day"><a href="<?php $this->permalink() ?>"><?php $this->date('d'); ?></a></div>
 			<div class="month"><a href="<?php $this->permalink() ?>"><?php $this->date('m'); ?></a></div>
@@ -42,7 +41,7 @@
 				</div>   
 			</div>
 			<div class="entry">
-				<?php $this->content('阅读更多...'); ?>
+				<?php $this->excerpt(200, "<a href='$this->permalink'>...阅读全文</a>"); ?>
 			</div>
 			<div class="tag"><?php $this->tags('', true, ''); ?></div>
 		</div>
