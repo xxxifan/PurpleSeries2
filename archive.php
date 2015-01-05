@@ -17,7 +17,7 @@
 				</div>   
 			</div>
 			<div class="entry">
-				<?php $this->content('阅读更多...'); ?>
+				<?php $this->excerpt(200, "<a href='$this->permalink'>...阅读全文</a>"); ?>
 			</div>
 			<div class="tag"><?php $this->tags('', true, ''); ?></div>
 		</div>
