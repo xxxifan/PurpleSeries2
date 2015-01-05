@@ -315,7 +315,7 @@ h1 a, h2 a { color: #4d4d4d; font-size: 26px; }
 		font-size: 15px;
 	}
 	.entry ul, .entry ol, .entry p { margin: 0 0 15px; }
-    .entry blockquote { margin: 15px 0 0 15px; padding-left: 10px; color: #888; }
+    .entry blockquote { margin: 1em 0; padding-left: 1.5em; border-left: 4px solid #eee; color: #888; }
 	.entry ul,.entry ol { margin-left: 25px; }
 
     .tag { margin-top: 40px; }
