@@ -39,7 +39,7 @@
 			<div class="title">
 				<h2><a href="<?php $this->permalink() ?>" rel="bookmark"><?php  $this->sticky(); $this->title() ?></a></h2>
 				<div class="meta">
-					<?php $this->author(); ?> / <?php $this->category(','); ?> / <?php $this->date('Y/m/d'); ?>	
+					<?php $this->author(); ?> / <?php $this->date('Y-m-d'); ?> / <?php $this->category(','); ?>
 				</div>   
 			</div>
 			<div class="entry">
